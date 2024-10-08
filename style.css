@@ -1,0 +1,27 @@
+body {
+  background-image: url('bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%; /* Makes the image circular */
+  max-width: 350px; /* Initial size of the image */
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.profile img:hover {
+  transform: scale(1.2); /* Expands the image by 20% on hover */
+}

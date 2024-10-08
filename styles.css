@@ -1,0 +1,61 @@
+body {
+  background-color: #f3e5f5; /* Light purple background */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #6a1b9a; /* Darker purple for header */
+  color: white;
+  padding: 10px 0;
+}
+
+main {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #d1c4e9; /* Medium purple for form background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between form elements */
+}
+
+label {
+  font-weight: bold;
+  color: #4a148c; /* Darker purple for labels */
+}
+
+input, textarea {
+  padding: 10px;
+  border: 2px solid #6a1b9a; /* Border color matching header */
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #9c27b0; /* Lighter purple on focus */
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6a1b9a; /* Button color matching header */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #9c27b0; /* Lighter purple on hover */
+}
+
+
